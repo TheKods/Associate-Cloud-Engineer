@@ -1,0 +1,866 @@
+Kategori : EN - Setting up a cloud solution environment 2
+
+You have an application that runs using the GCP services. Your application stored sensitive data in three Cloud Storage buckets and you have enabled data access logging. You want to verify activities for a particular user for these buckets, such as confirming the addition of metadata labels and which files have been viewed from those buckets. Using the fewest possible steps, what should you do?
+
+A
+Using the Cloud Console, filter the Cloud Logging log to view the information.
+
+B
+View the bucket in the Storage section of the Cloud Console.
+
+C
+Using the Cloud Console, filter the Activity log to view the information.
+
+D
+Create a trace in Google Cloud's operations suite to view the information.
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+The external auditors come to your company and want to audit the data and log in BigQuery. You need to configure the IAM role for the external auditors using Google-recommended practices. What should you do?
+
+A
+Add the auditor's group to two new custom IAM roles.
+
+B
+Add the auditor's group to the 'logging.viewer' and 'bigQuery.dataViewer' predefined IAM roles.
+
+C
+Add the auditor user accounts to the 'logging.viewer' and 'bigQuery.dataViewer' predefined IAM roles.
+
+D
+Add the auditor user accounts to two new custom IAM roles.
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+Your manager asked you to find out when users were added to the Cloud Spanner IAM roles on the company's GCP project. What should you do in the Cloud Console?
+
+A
+Go to the Cloud Monitoring console and review the information for Cloud Spanner.
+
+B
+Open the IAM & admin console to review IAM policies for Cloud Spanner roles.
+
+C
+Go to the Cloud Logging console, review admin activity logs, and filter them for Cloud Spanner IAM role
+
+D
+Open the Cloud Spanner console to review configurations.
+
+0
+Kategori : EN - Setting up a cloud solution environment 2
+
+Your company has three projects for development, testing, and production environment. The manager asked you to analyze GCP service costs from those three projects. In order to accomplish this, you want to use this information to create service cost estimates by service type, daily, and monthly for the next 6 months using standard query syntax. What should you do?
+
+A
+Export your bill to a BigQuery dataset, and then write time window-based SQL queries for analysis.
+
+B
+Export your bill to a Cloud Storage bucket, and then import it into Google Sheets for analysis.
+
+C
+Export your transactions to a local file, and perform analysis with a desktop tool.
+
+D
+Export your bill to a Cloud Storage bucket, and then import it into Cloud Bigtable for analysis.
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+You want to send and consume Cloud Pub/Sub messages from your App Engine application. The Cloud Pub/Sub API is currently disabled. You will use a service account to authenticate your application to the API. You want to make sure your application can use Cloud Pub/Sub. What should you do?
+
+A
+Enable the Cloud Pub/Sub API in the API Library on the Cloud Console.
+
+B
+Rely on the automatic enablement of the Cloud Pub/Sub API when the Service Account accesses it.
+
+C
+Use Deployment Manager to deploy your application. Rely on the automatic enablement of all APIs used by the application being deployed.
+
+D
+Grant the App Engine Default service account the role of Cloud Pub/Sub Admin. Have your application enable the API on the first connection to Cloud Pub/ Sub.
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+You've been developing the payroll application for the past two weeks. So far, you've been working locally and have had success. Now you want to migrate the application to the GCP using Compute Engine as a VM and Cloud SQL as a database. You created a service account with the appropriate access rights. You want to make sure that the VM uses this service account instead of the default Compute Engine service account. What should you do?
+
+A
+Download a JSON Private Key for the service account. After creating the VM, ssh into the VM and save the JSON under ~/.gcloud/compute-engine-service- account.json.
+
+B
+Download a JSON Private Key for the service account. On the Custom Metadata of the VM, add that JSON as the value for the key compute-engine- service-account.
+
+C
+Download a JSON Private Key for the service account. On the Project Metadata, add that JSON as the value for the key compute-engine-service- account.
+
+D
+When creating the VM via the web console, specify the service account under the 'Identity and API Access' section.
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+You have recently joined a startup and have been asked to create a new Google Cloud account for the company along with setting up a budget alarm of $100. You have set up an alarm with a 40%, 60%, 90%, and 100% threshold. What will happen once the threshold of 100% is reached?
+
+A
+A notification will be sent to Project Owner & Billing Admins.
+
+B
+Your project will be deleted because you have depleted all of your budgets.
+
+C
+All VMs will be stopped so that you don’t exceed your budget.
+
+D
+A notification will be sent to Billing Admins and Billing Users.
+
+0
+Kategori : EN - Setting up a cloud solution environment 2
+
+You are heading to the Cloud & DevOps department in a financial company and have been asked to create a custom role for one of your colleagues who needs access to deploy an application to the App Engine. Which permission will you use?
+
+A
+App Engine Editor
+
+B
+App Engine Admin
+
+C
+App Engine Deployer
+
+D
+App Engine Viewer
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+You are the project owner of a company's GCP project. Because you're about to switch departments, the manager asked you to delegate control to your colleague to manage buckets and files in Cloud Storage. You want to follow Google-recommended practices. Which IAM roles should you grant to your colleague?
+
+A
+Project Editor
+
+B
+Storage Admin
+
+C
+Storage Object Admin
+
+D
+Storage Object Creator
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+A startup has reached out to you for help with their single-page application which they will be running using Docker. They want you to suggest the best possible service which can be used by the developers to deploy and manage the application on their own. Which one according to you will be best suited for their requirement without considering the management of underlying infrastructure?
+
+A
+Compute Engine
+
+B
+App Engine
+
+C
+Cloud Storage
+
+D
+Cloud Functions
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+Your client wants to migrate an application to Google Cloud which has 15 TB of relational data. The database is growing rapidly by 10 GB every day. In addition, to support the traffic, at least 10 read replicas are required. Which of the following services would you meet the requirements?
+
+A
+BigQuery
+
+B
+Cloud Storage
+
+C
+Cloud Spanner
+
+D
+Cloud Bigtable
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You are hosting an application on bare-metal servers in your own data center. The application needs access to Cloud Storage. However, security policies prevent the servers hosting the application from having public IP addresses or access to the internet. You want to follow Google-recommended practices to provide the application with access to Cloud Storage. What should you do?
+
+A
+1. Use Migrate for Compute Engine (formerly known as Velostrata) to migrate those servers to Compute Engine.
+
+2. Create an internal load balancer (ILB) that uses storage.googleapis.com as the backend.
+
+3. Configure your new instances to use this ILB as a proxy.
+
+B
+1. Using Cloud VPN or Interconnect, create a tunnel to a VPC in Google Cloud.
+
+2. Use Cloud Router to create a custom route advertisement for 199.36.153.4/30. Announce that network to your on-premises network through the VPN tunnel. 
+
+3. In your on-premises network, configure your DNS server to resolve *.googleapis.com as a CNAME to restricted.googleapis.com.
+
+C
+1. Using Cloud VPN, create a VPN tunnel to a Virtual Private Cloud (VPC) in Google Cloud.
+
+2. In this VPC, create a Compute Engine instance and install the Squid proxy server on this instance.
+
+3. Configure your servers to use that instance as a proxy to access Cloud Storage.
+
+D
+1. Use nslookup to get the IP address for storage.googleapis.com.
+
+2. Negotiate with the security team to be able to give a public IP address to the servers.
+
+3. Only allow egress traffic from those servers to the IP addresses for storage.googleapis.com.
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You are starting to work on a client’s project that has a web application deployed as a managed instance group. The developer has finished writing and testing the code for the new version of the application and gradually deploy it to production. Your web application is currently receiving live web traffic. You want to ensure that the available capacity does not decrease during the deployment so users can use the app without any trouble. What should you do?
+
+A
+Create a new instance template with the new application version. Update the existing managed instance group with the new instance template. Delete the instances in the managed instance group to allow the managed instance group to recreate the instance using the new instance template.
+
+B
+Perform a rolling-action start-update with maxSurge set to 1 and maxUnavailable set to 0.
+
+C
+Perform a rolling-action start-update with maxSurge set to 0 and maxUnavailable set to 1.
+
+D
+Create a new managed instance group with an updated instance template. Add the group to the backend service for the load balancer. When all instances in the new managed instance group are healthy, delete the old managed instance group.
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You want to select and configure a solution for storing and archiving data on the Google Cloud Platform. You need to support compliance objectives for data from one geographic location. This data is archived after 30 days and needs to be accessed annually. What should you do?
+
+A
+Select Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Coldline Storage.
+
+B
+Select Multi-Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Coldline Storage.
+
+C
+Select Multi-Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Nearline Storage.
+
+D
+Select Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Nearline Storage.
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You have 100 TB of non-relational data and want to run analytics on it to see the previous year’s net sales. Which tool suits your requirement?
+
+A
+Cloud Storage
+
+B
+BigQuery
+
+C
+Cloud Datastore
+
+D
+Cloud Bigtable
+
+0
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You need to enable traffic between multiple groups of Compute Engine instances that are currently running two different GCP projects. Each group of Compute Engine instances is running in its own VPC. What should you do?
+
+A
+Verify that both projects are in a GCP Organization. Create a new VPC and add all instances.
+
+B
+Verify that both projects are in a GCP Organization. Share the VPC from one project and request that the Compute Engine instances in the other project use this shared VPC.
+
+C
+Verify that you are the Project Administrator of both projects. Create two new VPCs and add all instances.
+
+D
+Verify that you are the Project Administrator of both projects. Create a new VPC and add all instances.
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You work for an e-commerce startup company as a System Administrator. Your main responsibility is to maintain the underlying infrastructure that runs the company's application. Your company's infrastructure is on-premises. After meeting with the management team, they want to migrate all the workloads to the Google Cloud Platform and leverage the Google Kubernetes Engine service.
+
+Thus, you need to provide a cost estimate for a Kubernetes cluster using the GCP Pricing Calculator. Your workload requires high IOPS, and you will also be using disk snapshots. You start by entering the number of nodes, average hours, and average days. What should you do next?
+
+A
+Select Add GPUs. Add estimated cost for cluster management.
+
+B
+Select Add GPUs. Fill in persistent disk storage and snapshot storage.
+
+C
+Fill in local SSD. Fill in persistent disk storage and snapshot storage.
+
+D
+Fill in local SSD. Add estimated cost for cluster management.
+
+0
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You have a SQL Server database running on a VM with n1-standard-4 machine type. For the last few days, you are noticing performance degradation because of more than 95% memory utilization. CPU metrics look absolutely fine and need no change. Your manager has asked you to increase a small amount of memory keeping the cost in mind. What is the most cost-effective approach?
+
+A
+Change machine type to n1-highmem-4.
+
+B
+Change machine type to n1-highcpu-10.
+
+C
+Change machine type to n1-standard-6.
+
+D
+Switch to custom machine type and increase memory size.
+
+0
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You have been asked to build a backend using Clojure and host it on Google Cloud with full freedom of choosing OS, applications, libraries, etc. Which service will you prefer?
+
+A
+Cloud Run
+
+B
+Compute Engine
+
+C
+Cloud Functions
+
+D
+App Engine Standard
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You work for an e-commerce startup company as a System Administrator. Your main responsibility is to maintain the underlying infrastructure that runs the company's application. Your company's infrastructure is on-premises. Because of the user traffic spikes on the Black Friday campaign, all servers are running at maximum capacity. Therefore, you want to connect the on-premise to the Google Cloud environment to help this situation. The workloads on Google Cloud must be able to directly communicate with the workloads on-premises using a private IP range. What should you do?
+
+A
+Set up Cloud VPN between the infrastructure on-premises and Google Cloud.
+
+B
+In Google Cloud, configure the VPC as a host for Shared VPC.
+
+C
+In Google Cloud, configure the VPC for VPC Network Peering.
+
+D
+Create bastion hosts both in your on-premises environment and on Google Cloud. Configure both as proxy servers using their public IP addresses.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+You need to allow traffic from specific virtual machines in ‘subnet-a’ network access to machines in ‘subnet-b’ without giving the entirety of subnet-a access. How can you accomplish this?
+
+A
+You can only grant firewall access to an entire subnet and not individual VM’s inside.
+
+B
+Create a firewall rule to allow traffic from resources with specific network tags, then assign the machines in subnet-a the same tags.
+
+C
+Create a rule to deny all traffic to the entire subnet, then create a second rule with higher priority giving access to tagged VM’s in subnet-a.
+
+D
+Relocate the subnet-a machines to a different subnet and give the new subnet the needed access.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+You have a large 5 TB AVRO file stored in a Cloud Storage bucket. Your analysts are proficient only in SQL and need access to the data stored in this file. You want to find a cost-effective way to complete their request as soon as possible. What should you do?
+
+A
+Load data in Cloud Datastore and run a SQL query against it.
+
+B
+Create a BigQuery table and load data in BigQuery. Run a SQL query on this table and drop this table after you complete your request.
+
+C
+Create external tables in BigQuery that point to Cloud Storage buckets and run a SQL query on these external tables to complete your request.
+
+D
+Create a Hadoop cluster and copy the AVRO file to NDFS by compressing it. Load the file in a hive table and provide access to your analysts so that they can run SQL queries.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+Your client has a website that runs in Google Cloud using an App Engine standard environment. They are going to deploy their new version of the website. For testing purposes, they want only 1% of their users to see the new version. You want to minimize complexity. What should you do?
+
+A
+Deploy the new version in the same application and use the --migrate option.
+
+B
+Create a new App Engine application in the same project. Deploy the new version in that application. Configure your network load balancer to send 1% of the traffic to that new application.
+
+C
+Deploy the new version in the same application and use the --splits option to give a weight of 99 to the current version and a weight of 1 to the new version.
+
+D
+Create a new App Engine application in the same project. Deploy the new version in that application. Use the App Engine library to proxy 1% of the requests to the new version.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+A developer has asked you to create a single NGINX server for the development environment. Which service would allow you to launch VM using predefined images?
+
+A
+Cloud Marketplace
+
+B
+Google Kubernetes Engine
+
+C
+Cloud SQL
+
+D
+App Engine
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+You are using Deployment Manager to create a Google Kubernetes Engine cluster. Using the same Deployment Manager deployment, you also want to create a DaemonSet in the kube-system namespace of the cluster. You want a solution that uses the fewest possible services. What should you do?
+
+A
+Add the cluster's API as a new Type Provider in Deployment Manager, and use the new type to create the DaemonSet.
+
+B
+In the cluster's definition in Deployment Manager, add a metadata that has kube-system as key and the DaemonSet manifest as value.
+
+C
+Use the Deployment Manager Runtime Configurator to create a new Config resource that contains the DaemonSet definition.
+
+D
+With Deployment Manager, create a Compute Engine instance with a startup script that uses kubectl to create the DaemonSet.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+There are 15 VMs in your company’s Google Cloud account which has public IP addresses but are ephemeral. Your manager asked you to assign static public IP to each instance. During the process, you were able to assign IPs to only 5 of the VMs and were receiving errors in all other instances. What can be the reason?
+
+A
+You have reached the hard limit of using static IP addresses.
+
+B
+Your quota has been exhausted and you can raise a request to increase it.
+
+C
+Not all OS supports static public IP so check if the OS on VM supports static IP.
+
+D
+You need to first remove the existing public IP attached to VMs and then attach static IP to them.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+You are building an architecture for one of your clients with a requirement of streaming millions of requests with high availability and durability along with HIPAA compliance. Which managed service will you prefer?
+
+A
+Cloud Functions
+
+B
+Cloud Dataproc
+
+C
+Cloud Pub/Sub
+
+D
+RabbitMQ
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+You are using Container Registry to centrally store your company's container images in a separate project. In another project, you want to create a Google Kubernetes Engine cluster. You want to ensure that Kubernetes can download images from Container Registry. What should you do?
+
+A
+Create a service account, and give it access to Cloud Storage. Create a P12 key for this service account and use it as an imagePullSecrets in Kubernetes.
+
+B
+Configure the ACLs on each image in Cloud Storage to give read-only access to the default Compute Engine service account.
+
+C
+When you create the Google Kubernetes Engine cluster, choose the Allow full access to all Cloud APIs option under 'Access scopes'.
+
+D
+In the project where the images are stored, grant the Storage Object Viewer IAM role to the service account used by the Kubernetes nodes.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+You are using Google Kubernetes Engine with autoscaling enabled to host a new application. You want to expose this new application to the public using HTTPS on a public IP address. What should you do?
+
+A
+Create a Kubernetes Service of type NodePort for your application, and a Kubernetes Ingress to expose this Service via a Cloud Load Balancing.
+
+B
+Create a Kubernetes Service of type NodePort to expose the application on port 443 of each node of the Kubernetes cluster. Configure the public DNS name of your application with the IP of every node of the cluster to achieve load-balancing.
+
+C
+Create an HAProxy pod in the cluster to load-balance the traffic to all the pods of the application. Forward the public traffic to HAProxy with an iptable rule. Configure the DNS name of your application using the public IP of the node HAProxy is running on.
+
+D
+Create a Kubernetes Service of type ClusterIP for your application. Configure the public DNS name of your application using the IP of this Service.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+You are migrating a production-critical on-premises application that requires 96 vCPUs to perform its task. You want to make sure the application runs in a similar environment on GCP. What should you do?
+
+A
+When creating the VM, use Intel Skylake as the CPU platform.
+
+B
+Start the VM using Compute Engine default settings, and adjust as you go based on Rightsizing Recommendations.
+
+C
+When creating the VM, use machine type n1-standard-96.
+
+D
+Create the VM using Compute Engine default settings. Use gcloud to modify the running instance to have 96 vCPUs.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+A development team works with two Cloud Functions using Node.js code. Each function corresponds to environments for development and production. The code is the same except for the Cloud SQL database values used in each function. The team wants to maintain code in a clean and reusable fashion and decides to pass the database value during function execution. Which feature will allow you to do this?
+
+A
+Timeouts
+
+B
+Environment Variables
+
+C
+Metadata
+
+D
+Service Accounts
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+Your colleague has an object in a Cloud Storage bucket that she wants to share with the team leader in a different department. The object contains sensitive data. She wants access to the content to be removed after four hours. The team leader does not have a Google account to which your colleague can grant specific user-based access privileges. She asked you what is the most secure method for this case that requires the fewest steps. What solution you will provide to her?
+
+A
+Create a signed URL with a four-hour expiration and share the URL with the team leader.
+
+B
+Set object access to 'public' and use object lifecycle management to remove the object after four hours.
+
+C
+Configure the storage bucket as a static website and furnish the object's URL to the team leader. Delete the object from the storage bucket after four hours.
+
+D
+Create a new Cloud Storage bucket specifically for the team leader to access. Copy the object to that bucket. Delete the bucket after four hours have passed.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+The development team in your startup company needs a new Jenkins server as a CI tool for their project in the Google Cloud Platform. They do not have expertise in GCP and want to deploy the server using the fewest steps possible to shorter time-to-market. What solution you will provide to them?
+
+A
+Create a Kubernetes cluster on Compute Engine and create a deployment with the Jenkins Docker image.
+
+B
+Use Google Cloud Marketplace to launch the Jenkins solution.
+
+C
+Create a new Compute Engine instance and install Jenkins through the command line interface.
+
+D
+Download and deploy the Jenkins Java WAR to App Engine Standard.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+You need to run an important query in BigQuery but expect it to return a lot of records. You want to find out how much it will cost to run the query. You are using on-demand pricing. What should you do?
+
+A
+Use the command line to run a dry-run query to estimate the number of bytes read. Then convert that bytes estimate to dollars using the Pricing Calculator.
+
+B
+Arrange to switch to Flat-Rate pricing for this query, then move back to on-demand.
+
+C
+Use the command line to run a dry-run query to estimate the number of bytes returned. Then convert that bytes estimate to dollars using the Pricing Calculator.
+
+D
+Run a select count (*) to get an idea of how many records your query will look through. Then convert that number of rows to dollars using the Pricing Calculator.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+The client just created a new Kubernetes cluster using Google Kubernetes Engine service. They want to make sure that the Kubernetes cluster always runs a supported and stable version of Kubernetes. What should you do?
+
+A
+Select Container-Optimized OS as a node image for your Google Kubernetes Engine cluster.
+
+B
+Select the latest available cluster version for your Google Kubernetes cluster.
+
+C
+Enable the Node Auto-Repair feature for your Google Kubernetes Engine cluster.
+
+D
+Enable the Node Auto-Upgrades feature for your Google Kubernetes Engine cluster.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+A healthcare company that provides medical services to users wants to track their network forensics, real-time security analysis, and optimize the expense. The manager would like to track the network sent from and received by VM instances. What do you suggest they do?
+
+A
+Cloud Pub/Sub
+
+B
+VPC Flow Logs
+
+C
+Cloud Storage
+
+D
+VPC Monitoring
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+The development team has a single binary application that they want to run on the Google Cloud Platform. You've been designated to do this task. They want the application to be scaled automatically based on underlying infrastructure CPU usage. Your organizational policies require you to use virtual machines directly. You need to ensure that the application scaling is operationally efficient and completed as quickly as possible. What should you do?
+
+A
+Use a set of third-party tools to build automation around scaling the application up and down based on CPU usage provided by Cloud Monitoring.
+
+B
+Create an instance template, and use the template in a Managed Instance Group that scales up and down based on the time of day.
+
+C
+Create a Google Kubernetes Engine cluster, and use horizontal pod autoscaling to scale the application.
+
+D
+Create an instance template, and use the template in a Managed Instance Group with autoscaling configured.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+You are about to start working on a microservice deployment project using Google Kubernetes Engine service. The client needs everything on Google and wants you to maintain both frontend and backend code on Google Cloud as well. Which service best suits this case?
+
+A
+Cloud Storage
+
+B
+Cloud Source Repositories
+
+C
+Container Registry
+
+D
+GitHub
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+You are creating a Google Kubernetes Engine cluster with a cluster autoscaler feature enabled. You need to make sure that each node of the cluster will run a monitoring pod that sends container metrics to a third-party monitoring solution. What should you do?
+
+A
+Deploy the monitoring pod in a DaemonSet object.
+
+B
+Deploy the monitoring pod in a StatefulSet object.
+
+C
+Reference the monitoring pod in a Deployment object.
+
+D
+Reference the monitoring pod in a cluster initializer at the GKE cluster creation time.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+The fundraising organization has an instance group that contains several VM instances that they want to load balance to distribute the traffic coming to their website. You have been asked to choose the most appropriate load balancer solutions in Google Cloud that can terminate the client SSL session. The instance group is used to serve their public website over HTTPS. You want to follow Google-recommended practices. What should you do?
+
+A
+Configure an External SSL Proxy Load Balancing.
+
+B
+Configure an External TCP Proxy Load Balancing.
+
+C
+Configure an External HTTP(S) Load Balancing.
+
+D
+Configure an Internal TCP/UDP Load Balancing.
+
+0
+Kategori : EN - Configuring access and security 2
+
+Your company has deployed an application using the App Engine flexible environment and you have been asked to SSH to the VM instance, update the app configuration and if required, enable and disable the App Engine application. Which of the following predefined roles has access to perform these tasks?
+
+A
+App Engine Admin
+
+B
+App Engine Service Admin
+
+C
+App Engine Deployer
+
+D
+App Engine Code Viewer
+
+1
+Kategori : EN - Configuring access and security 2
+
+You have a Dockerfile that you need to deploy on Kubernetes Engine. What should you do?
+
+A
+Create a docker image from the Dockerfile and upload it to Container Registry. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file.
+
+B
+Create a docker image from the Dockerfile and upload it to Cloud Storage. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file.
+
+C
+Use gcloud app deploy <dockerfilename>.
+
+D
+Use kubectl app deploy <dockerfilename>.
+
+1
+Kategori : EN - Configuring access and security 2
+
+An auditor needs to review audit logs. You assign read-only permission to a custom role you create for auditors. What security best practices are you following?
+
+A
+Least privilege
+
+B
+Vulnerability scanning
+
+C
+Separation of duties
+
+D
+Defense in depth
+
+1
+Kategori : EN - Configuring access and security 2
+
+Your colleague has asked for help in creating an IAM role using gcloud CLI. Which of the following is the correct command to create an IAM role?
+
+A
+gcloud iam roles create viewer-role --project academy --file=role-definition.yaml
+
+B
+gcloud project roles create --type iam viewer-role --project academy --file role-definition.yaml
+
+C
+gcloud iam roles create viewer-role --project academy --permissions “roles/viewer”
+
+D
+gcloud iam create role viewer-role --project academy --permissions “roles/viewer”
+
+1
+Kategori : EN - Configuring access and security 2
+
+Your company hired a Big Data consultant for creating real-time reporting applications using Google Cloud services like BigQuery and PowerBI reporting tools. Your manager asked you to create an IAM user which gives him access to read, update, and delete the dataset but not to create one. Which role would you assign to him?
+
+A
+roles/bigquery.dataOwner
+
+B
+roles/bigquery.dataEditor
+
+C
+roles/bigquery.datasetEditor
+
+D
+roles/bigquery.admin
+
+0
+Kategori : EN - Configuring access and security 2
+
+Your company has uploaded some business-critical documents to Cloud Storage and your project manager wants you to restrict access to the objects by using ACLs. Which of the following permission would allow you to update the object ACLs?
+
+A
+storage.objects.update
+
+B
+storage.objects.setIamPolicy
+
+C
+storage.objects.create
+
+D
+storage.objects.getIamPolicy
+
+0
+Kategori : EN - Configuring access and security 2
+
+Your project manager wants to create a user for the new Cloud SQL Administrator in your organization. Which of the following role would give him the ability to manage specific instances but no ability to import or restore data from backups?
+
+A
+Cloud SQL Editor
+
+B
+Cloud SQL Admin
+
+C
+Cloud SQL Viewer
+
+D
+Cloud SQL Client
+
+1
+Kategori : EN - Configuring access and security 2
+
+You want to list roles assigned to users in a project called ace-exam-project. What gcloud CLI command would you use?
+
+A
+gcloud iam get-iam-policy ace-exam-project
+
+B
+gcloud projects list ace-exam-project
+
+C
+gcloud projects get-iam-policy ace-exam-project
+
+D
+gcloud iam list ace-exam-project
+
+1
+Kategori : EN - Configuring access and security 2
+
+Your company is going for an audit and the auditor has approached you to provide them with all the audit logs related to the ace-prod project. Which service will you use to extract the logs for auditors?
+
+A
+Audit logs
+
+B
+Cloud Logging
+
+C
+Activity logs
+
+D
+Flow logs
+
+1
+Kategori : EN - Configuring access and security 2
+
+Using the principle of least privilege, your colleague Bob needs to be able to create new instances on Compute Engine in the project called ‘Project A’. How should you give him access without giving more permissions than is necessary?
+
+A
+Give Bob Compute Engine Instance Admin Role for Project A.
+
+B
+Give Bob Compute Engine Admin Role for Project A.
+
+C
+Create a shared VPC that Bob can access Compute resources from.
+
+D
+Give Bob Project Editor IAM role for project A.
