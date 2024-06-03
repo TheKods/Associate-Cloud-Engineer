@@ -1,0 +1,937 @@
+Kategori : EN - Setting up a cloud solution environment 1
+
+Your Accounting team has to perform cost analysis measures to review and plan for the next IT budget. They need your help to export the billing details, crunch the numbers, reduce complexity and visualize it in a dashboard. Choose the correct method of setting up the billing export.
+
+A
+Export the data to a Cloud SQL DB and perform queries to deduce the cost analysis.
+
+B
+Export data to BigQuery and use Looker (Data Studio) to create customizable informative reports right.
+
+C
+Use Cloud Functions and write custom code to extract details from the budget data.
+
+D
+Use Cloud Logging and create custom metrics.
+
+1
+Kategori : EN - Setting up a cloud solution environment 1
+
+As per your manager's instruction, you created a custom VPC with a subnet mask of 24 which provides 256 IP addresses, but are only able to use 252 addresses out of it. Your manager is trying to figure out what's going wrong and approaches you for the answer. What will you answer to your manager?
+
+A
+Inform the manager that you will recreate the VPC because you feel something went wrong while creating a subnet.
+
+B
+Just tell the manager that it's the rule when networking in GCP.
+
+C
+GCP reserves four IP addresses in each primary subnet range, because of which the usable IP count is 252.
+
+D
+It's because your account has reached a soft limit for the number of private IP address spaces. Raise a request for a quota increase.
+
+1
+Kategori : EN - Setting up a cloud solution environment 1
+
+Your company has an application running in the Compute Engine VM that belongs to the GCP project called dev-proj with appropriate IAM roles defined. In several weeks, the application is ready to be deployed to production, so you created the project called prod-proj. In order to equalize the development and production environment, you want the prod-proj to have the same IAM roles as the dev-proj. Using the fewest possible steps, what should you do?
+
+A
+Use gcloud iam roles copy and specify the production project as the destination project.
+
+B
+In the Google Cloud Platform Console, use the 'create role' functionality and select all applicable permissions.
+
+C
+In the Google Cloud Platform Console, use the 'create role from role' functionality.
+
+D
+Use gcloud iam roles copy and specify your organization as the destination organization.
+
+0
+Kategori : EN - Setting up a cloud solution environment 1
+
+Your company has decided to build an in-house application for payroll processing, and you have been assigned a task to create a VM, Cloud SQL DB, and Cloud Storage bucket. While testing the application, developers found that they couldn't upload files to the bucket. You want to follow Google-recommended practices. What should you do?
+
+A
+Create a service account and add it to the IAM role 'storage.objectAdmin' for that bucket.
+
+B
+Create a service account and add it to the IAM role 'storage.objectCreator' for that bucket.
+
+C
+Check if egress firewall rules are applied to instances allowing connection between bucket and VM.
+
+D
+Check if the default service account is attached to VM, if not edit the instance and attach it.
+
+0
+Kategori : EN - Setting up a cloud solution environment 1
+
+You are currently working on a freelance project where you have to deploy a WordPress website on VM. You decided to use a startup script to install WordPress and other libraries instead of manual installation. While launching you forgot to use the startup script and are wondering how to do it now. What should you do?
+
+A
+Stop the instance, add metadata with startup-script as key, and script content as value, and start the instance.
+
+B
+Stop the instance, add a script into the startup script field, and start the instance.
+
+C
+Edit the instance by selecting it, add metadata with the script as key, add script content as value, and restart the instance.
+
+D
+Edit the instance by selecting it, add your startup script to the user data field, and restart your instance.
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+You have an application that runs using the GCP services. Your application stored sensitive data in three Cloud Storage buckets and you have enabled data access logging. You want to verify activities for a particular user for these buckets, such as confirming the addition of metadata labels and which files have been viewed from those buckets. Using the fewest possible steps, what should you do?
+
+A
+Using the Cloud Console, filter the Cloud Logging log to view the information.
+
+B
+View the bucket in the Storage section of the Cloud Console.
+
+C
+Using the Cloud Console, filter the Activity log to view the information.
+
+D
+Create a trace in Google Cloud's operations suite to view the information.
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+In order to manage the company's application, you have one GCP account running in your default region and zone and another account running in a non-default region and zone. You want to start a new Compute Engine instance in these two GCP accounts using the gcloud CLI. What are the most effective steps to meet this requirement?
+
+A
+Activate two configurations using gcloud configurations activate [NAME]. Run gcloud configurations list to start the Compute Engine instances.
+
+B
+Create two configurations using gcloud config configurations create [NAME]. Run gcloud configurations list to start the Compute Engine instances.
+
+C
+Create two configurations using gcloud config configurations create [NAME]. Run gcloud config configurations activate [NAME] to switch between accounts when running the commands to start the Compute Engine instances.
+
+D
+Activate two configurations using gcloud configurations activate [NAME]. Run gcloud config list to start the Compute Engine instances
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+As a cloud engineer, you have been asked to upgrade the free trial of your account and rename it to a production-inventory-system. You are getting a permission denied error while making the changes. Which of the following permissions will solve the problem?
+
+A
+billing.accounts.update
+
+B
+billing.account.upgrade
+
+C
+billing.account.update
+
+D
+billing.accounts.upgrade
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+You are heading to the Cloud & DevOps department in a financial company and have been asked to create a custom role for one of your colleagues who needs access to deploy an application to the App Engine. Which permission will you use?
+
+A
+App Engine Editor
+
+B
+App Engine Admin
+
+C
+App Engine Deployer
+
+D
+App Engine Viewer
+
+1
+Kategori : EN - Setting up a cloud solution environment 2
+
+The external auditors come to your company and want to audit the IAM users and roles assigned within a GCP project used by your company's application. What should the external auditor do?
+
+A
+Navigate to the project and then to the Roles section in the Cloud Console. Review the roles and status.
+
+B
+Run gcloud iam service-accounts list. Review the output section.
+
+C
+Navigate to the project and then to the IAM section in the Cloud Console. Review the members and roles.
+
+D
+Run gcloud iam roles list. Review the output section.
+
+1
+Kategori : EN - Planning and configuring a cloud solution 1
+
+You have to build a functionality to manage user sessions in an online shopping cart for retail transactions. There is a need to ensure that users can lock down one or more documents until their transaction is complete. What would be the correct choice of database to handle the requirement?
+
+A
+Use Cloud SQL and use sub-queries to hold the session.
+
+B
+Use BigQuery for streaming data from user sessions.
+
+C
+Use Cloud Spanner to manage user sessions.
+
+D
+Use Cloud Firestore to handle user session management.
+
+0
+Kategori : EN - Planning and configuring a cloud solution 1
+
+Your client wants to develop a new cost-effective web application that runs on a serverless platform using Cloud Function, Cloud Storage, Pub/Sub, and Cloud CDN. The expected data would be 20 GB. Which of the following databases would be the most suitable schemaless option to support the serverless functionality?
+
+A
+Cloud Spanner
+
+B
+BigQuery
+
+C
+Cloud Firestore
+
+D
+Cloud Bigtable
+
+1
+Kategori : EN - Planning and configuring a cloud solution 1
+
+You work for a financial company as a Cloud Engineer. Your manager asked you to find a solution to store audit log files for 3 years. Your company has hundreds of GCP projects. You need to implement a cost-effective approach for log file retention. What solution that you will give to the manager?
+
+A
+Create an export to the sink that saves logs from Cloud Audit to a coldline Cloud Storage bucket.
+
+B
+Create an export to the sink that saves logs from Cloud Audit to BigQuery.
+
+C
+Write a custom script that uses logging API to copy the logs from Cloud Logging to BigQuery.
+
+D
+Export logs to Cloud Pub/Sub and write a Cloud Dataflow pipeline to store logs to Cloud SQL.
+
+1
+Kategori : EN - Planning and configuring a cloud solution 1
+
+You work for a retail company that has a busy online store. As you are approaching New Year, you find that your e-store is getting more and more traffic. You ensure that your web servers are behind a managed instance group. However, you notice that the web tier is frequently scaling, sometimes multiple times in an hour. You need to prevent the instance group from scaling up and down so rapidly. Which of the following options would help you to achieve this?
+
+A
+Change the auto-scaling metric to use multiple metrics instead of just one metric.
+
+B
+Reduce the maximum instance count.
+
+C
+Associate a health check with the instance group.
+
+D
+Increase the cooldown period.
+
+1
+Kategori : EN - Planning and configuring a cloud solution 1
+
+You are working for a genomics company in the US that is planning to conduct data analysis on around 10 TB of data. The company would require 20 vCPUs and 60 GB of RAM for the VM. You have been asked to figure out the cheapest option to conduct the analysis. Which of the following would you use?
+
+A
+Sustained discount
+
+B
+Committed use discount
+
+C
+Preemptible instances
+
+D
+Cloud Functions
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+Your application runs using Compute Engine VM instances that reside in a subnet that has a subnet mask of 255.255.255.240. It was running fine at first, but now the subnet has no more free IP addresses and you require an additional 10 IP addresses to launch the new VMs. The existing and new VMs should all be able to reach each other without additional routes. What should you do?
+
+A
+Use gcloud to expand the IP range of the current subnet.
+
+B
+Delete the subnet, and recreate it using a wider range of IP addresses.
+
+C
+Create a new project. Use Shared VPC to share the current network with the new project.
+
+D
+Create a new subnet with the same starting IP but a wider range to overwrite the current subnet.
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You are starting to work on a client’s project who is looking for a database service within Google Cloud that is horizontally scalable, supports gigabyte size of relational data, and even supports ACID for reliable storage of data. Which service will you recommend?
+
+A
+BigQuery
+
+B
+Cloud SQL
+
+C
+Cloud Datastore
+
+D
+Cloud Spanner
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You have 100 TB of non-relational data and want to run analytics on it to see the previous year’s net sales. Which tool suits your requirement?
+
+A
+BigQuery
+
+B
+Cloud Datastore
+
+C
+Cloud Storage
+
+D
+Cloud Bigtable
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+Your client wants to migrate an application to Google Cloud which has 15 TB of relational data. The database is growing rapidly by 10 GB every day. In addition, to support the traffic, at least 10 read replicas are required. Which of the following services would you meet the requirements?
+
+A
+Cloud Spanner
+
+B
+Cloud Storage
+
+C
+BigQuery
+
+D
+Cloud Bigtable
+
+1
+Kategori : EN - Planning and configuring a cloud solution 2
+
+You have been asked to build a backend using Clojure and host it on Google Cloud with full freedom of choosing OS, applications, libraries, etc. Which service will you prefer?
+
+A
+Cloud Functions
+
+B
+App Engine Standard
+
+C
+Cloud Run
+
+D
+Compute Engine
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 1
+
+You created an application for a large hospital that stores around 1 GB of files every day on Cloud Storage. Most of these files are accessed very rarely after six months from the day of the first upload but are important and cannot be deleted. Which storage class would you prefer to save money on after 6 months?
+
+A
+Standard
+
+B
+Nearline
+
+C
+Coldline
+
+D
+Regional
+
+0
+Kategori : EN - Deploying and implementing a cloud solution 1
+
+In your company, there are massive data services that are currently running Hadoop/Spark on-premises. The Cloud Architects start their work on a migration plan to Google Cloud. However, the big data team wants to use the existing workflows during the migration. The main focus is to continue working on their Hadoop cluster and Spark jobs with the scaling and data processing capacity of Google Cloud. Which tool would be the right option to choose?
+
+A
+Cloud Dataproc
+
+B
+Cloud Dataflow
+
+C
+Cloud Dataprep
+
+D
+Looker Studio
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 1
+
+A bug has been identified within your Python application which is hosted using App Engine and you are about to roll out a new version of the application to resolve the bug, but do not want the traffic to automatically shift to a new version just to make sure the new version does not break anything. How would you achieve it?
+
+A
+Pass --no-promote flag while deploying a new version.
+
+B
+Pass --no-active flag while deploying a new version.
+
+C
+Pass a custom version ID so that App Engine does not send traffic to the new version.
+
+D
+Use --inactive-mode flag while deploying a new version of the app.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 1
+
+Your program manager wants you to set up a hybrid network between your Google Cloud and on-premise infrastructure that allows high bandwidth, low latency connection between both networks. As a Senior Cloud Engineer, which one of the following services will you select?
+
+A
+Cloud VPN
+
+B
+Cloud Router
+
+C
+Cloud Interconnect
+
+D
+Shared VPC
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 1
+
+The engineering team is building an application that routes requests on the TCP layer. They need a load balancer with support for SSL termination on the load balancer. Which of the following is the best available option?
+
+A
+External HTTP(S) Load Balancing
+
+B
+External TCP/UDP Network Load Balancing
+
+C
+Internal TCP Proxy Load Balancing
+
+D
+External SSL Proxy Load Balancing
+
+0
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+Your client has a website that runs in Google Cloud using an App Engine standard environment. They are going to deploy their new version of the website. For testing purposes, they want only 1% of their users to see the new version. You want to minimize complexity. What should you do?
+
+A
+Deploy the new version in the same application and use the --migrate option.
+
+B
+Create a new App Engine application in the same project. Deploy the new version in that application. Use the App Engine library to proxy 1% of the requests to the new version.
+
+C
+Create a new App Engine application in the same project. Deploy the new version in that application. Configure your network load balancer to send 1% of the traffic to that new application.
+
+D
+Deploy the new version in the same application and use the --splits option to give a weight of 99 to the current version and a weight of 1 to the new version.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+You need to deploy an update to an application in App Engine. The update is risky, but it can only be tested in a live environment. What is the best way to introduce the update to minimize risk?
+
+A
+Deploy a new version of the application but use traffic splitting to only direct a small number of users to the new version.
+
+B
+Deploy the application temporarily and be prepared to pull it back if needed.
+
+C
+Warn users that a new app version may have issues and provide a way to contact you if there are problems.
+
+D
+Create a new project with the new app version, then redirect users to the new version.
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+Your company has launched an LDAP server using Compute Engine. The LDAP server is configured in such a way that should be reachable via TLS through port 636 using UDP. Before deploying to the public, you want to make sure it is reachable by clients over that port. What should you do?
+
+A
+Add the network tag allow-udp-636 to the VM instance running the LDAP server.
+
+B
+Create a route called allow-udp-636 and set the next hop to be the VM instance running the LDAP server.
+
+C
+Add a network tag of your choice to the instance running the LDAP server. Create a firewall rule to allow egress on UDP port 636 for that network tag.
+
+D
+Add a network tag of your choice to the instance. Create a firewall rule to allow ingress on UDP port 636 for that network tag.
+
+0
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+Your company has a 3-tier solution running on Compute Engine. The configuration of the current infrastructure is shown below.
+0002700001.png
+Each tier has a service account that is associated with all instances within it. You need to enable communication on TCP port 8080 between tiers as follows:
+
+1. Instances in tier #1 must communicate with tier #2.
+2. Instances in tier #2 must communicate with tier #3.
+
+What should you do?
+
+A
+1. Create an ingress firewall rule with the following settings:
+
+- Targets: all instances
+
+- Source filter: IP ranges (with the range set to 10.0.2.0/24)
+
+- Protocols: allow all 
+
+2. Create an ingress firewall rule with the following settings:
+
+- Targets: all instances
+
+- Source filter: IP ranges (with the range set to 10.0.1.0/24)
+
+- Protocols: allow all
+
+B
+1. Create an egress firewall rule with the following settings:
+
+- Targets: all instances
+
+- Source filter: IP ranges (with the range set to 10.0.2.0/24)
+
+- Protocols: allow TCP: 8080 
+
+2. Create an egress firewall rule with the following settings:
+
+- Targets: all instances
+
+- Source filter: IP ranges (with the range set to 10.0.1.0/24)
+
+- Protocols: allow TCP: 8080
+
+C
+1. Create an ingress firewall rule with the following settings:
+
+- Targets: all instances with tier #2 service account
+
+- Source filter: all instances with tier #1 service account
+
+- Protocols: allow TCP:8080 
+
+2. Create an ingress firewall rule with the following settings:
+
+- Targets: all instances with tier #3 service account
+
+- Source filter: all instances with tier #2 service account
+
+- Protocols: allow TCP: 8080
+
+D
+1. Create an ingress firewall rule with the following settings:
+
+- Targets: all instances with tier #2 service account
+
+- Source filter: all instances with tier #1 service account
+
+- Protocols: allow all 
+
+2. Create an ingress firewall rule with the following settings:
+
+- Targets: all instances with tier #3 service account
+
+- Source filter: all instances with tier #2 service account
+
+- Protocols: allow all
+
+1
+Kategori : EN - Deploying and implementing a cloud solution 2
+
+You are migrating a production-critical on-premises application that requires 96 vCPUs to perform its task. You want to make sure the application runs in a similar environment on GCP. What should you do?
+
+A
+When creating the VM, use Intel Skylake as the CPU platform.
+
+B
+Start the VM using Compute Engine default settings, and adjust as you go based on Rightsizing Recommendations.
+
+C
+When creating the VM, use machine type n1-standard-96.
+
+D
+Create the VM using Compute Engine default settings. Use gcloud to modify the running instance to have 96 vCPUs.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 1
+
+Your team has a VM instance that is currently launched with 2 vCPUs and 4 GB of memory to host e-learning applications. After several hours, the VM instance is running out of memory. You want to upgrade the VM instance to have 8 GB of memory. What should you do?
+
+A
+Rely on live migration to move the workload to a machine with more memory.
+
+B
+Stop the VM, change the machine type to n1-standard-8, and start the VM.
+
+C
+Stop the VM, increase the memory to 8 GB, and start the VM.
+
+D
+Use gcloud to add metadata to the VM. Set the key to required-memory-size and the value to 8 GB.
+
+0
+Kategori : EN - Ensuring successful ops of a cloud solution 1
+
+You have had an application running on Compute Engine VM instance written in .NET for the last few weeks. Suddenly you experience elevated latency and poor performance among application endpoints. Which service can help you troubleshoot this issue?
+
+A
+Cloud Profiler
+
+B
+Activity Logs
+
+C
+Cloud Monitoring
+
+D
+Cloud Trace
+
+0
+Kategori : EN - Ensuring successful ops of a cloud solution 1
+
+You are working as a System Administrator and have been asked to make sure that all images are patched up to date and developers are not allowed to use old images that are not up to date as per PCI compliance. How would you achieve this?
+
+A
+Drop a mail to all the developers regarding which image to use whenever you patch images.
+
+B
+Mark the image as deprecated to prevent users from using the old image.
+
+C
+Mark the image as obsolete to prevent users from using the old image.
+
+D
+None of the above.
+
+0
+Kategori : EN - Ensuring successful ops of a cloud solution 1
+
+Your projects incurred more costs than you expected last month. Your research reveals that a development Google Kubernetes Engine container emitted a huge number of logs, which resulted in higher costs. You want to disable the logs quickly using the minimum number of steps. What should you do?
+
+A
+1. Go to the Logs ingestion window in Stackdriver Logging.
+
+2. Disable the log source for the Google Kubernetes Engine Cluster Operations resource.
+
+B
+1. Go to the Google Kubernetes Engine console and delete existing clusters.
+
+2. Recreate a new cluster. 
+
+3. Clear the option to enable legacy Stackdriver Logging.
+
+C
+1. Go to the Logs ingestion window in Stackdriver Logging.
+
+2. Disable the log source for the Google Kubernetes Engine container resource.
+
+D
+1. Go to the Google Kubernetes Engine console and delete existing clusters. 
+
+2. Recreate a new cluster. 
+
+3. Clear the option to enable legacy Stackdriver Monitoring.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 1
+
+You have production and test workloads that you want to deploy on Compute Engine. Production VMs need to be in a different subnet than the test VMs. All the VMs must be able to reach each other over Internal IP without creating additional routes. You need to set up VPC and the 2 subnets. Which configuration meets these requirements?
+
+A
+Create a single custom VPC with 2 subnets. Create each subnet in a different region and with a different CIDR range.
+
+B
+Create a single custom VPC with 2 subnets. Create each subnet in the same region and with the same CIDR range.
+
+C
+Create 2 custom VPCs, each with a single subnet. Create each subnet in a different region and with a different CIDR range.
+
+D
+Create 2 custom VPCs, each with a single subnet. Create each subnet in the same region and with the same CIDR range.
+
+0
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+The fundraising organization has an instance group that contains several VM instances that they want to load balance to distribute the traffic coming to their website. You have been asked to choose the most appropriate load balancer solutions in Google Cloud that can terminate the client SSL session. The instance group is used to serve their public website over HTTPS. You want to follow Google-recommended practices. What should you do?
+
+A
+Configure an External TCP Proxy Load Balancing.
+
+B
+Configure an External HTTP(S) Load Balancing.
+
+C
+Configure an Internal TCP/UDP Load Balancing.
+
+D
+Configure an External SSL Proxy Load Balancing.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+You have a Kubernetes cluster with 1 node-pool. The cluster receives a lot of traffic and needs to grow. You decide to add a node. What should you do?
+
+A
+Use “gcloud container clusters resize” with the desired number of nodes.
+
+B
+Use “kubectl container clusters resize” with the desired number of nodes.
+
+C
+Edit the Managed Instance Group of the cluster and increase the number of VMs by 1.
+
+D
+Edit the Managed Instance Group of the cluster and enable autoscaling.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+The development team has a single binary application that they want to run on the Google Cloud Platform. You've been designated to do this task. They want the application to be scaled automatically based on underlying infrastructure CPU usage. Your organizational policies require you to use virtual machines directly. You need to ensure that the application scaling is operationally efficient and completed as quickly as possible. What should you do?
+
+A
+Create an instance template, and use the template in a Managed Instance Group that scales up and down based on the time of day.
+
+B
+Create an instance template, and use the template in a Managed Instance Group with autoscaling configured.
+
+C
+Create a Google Kubernetes Engine cluster, and use horizontal pod autoscaling to scale the application.
+
+D
+Use a set of third-party tools to build automation around scaling the application up and down based on CPU usage provided by Cloud Monitoring.
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+You are about to start working on a microservice deployment project using Google Kubernetes Engine service. The client needs everything on Google and wants you to maintain both frontend and backend code on Google Cloud as well. Which service best suits this case?
+
+A
+Cloud Storage
+
+B
+Cloud Source Repositories
+
+C
+Container Registry
+
+D
+GitHub
+
+1
+Kategori : EN - Ensuring successful ops of a cloud solution 2
+
+You need to set up a policy so that videos stored in a specific Cloud Storage Regional bucket are moved to Coldline after 90 days and then deleted after one year from their creation. How should you set up the policy?
+
+A
+Use Cloud Storage Object Lifecycle Management using Age conditions with SetStorageClass and Delete actions. Set the SetStorageClass action to 90 days and the Delete action to 365 days.
+
+B
+Use Cloud Storage Object Lifecycle Management using Age conditions with SetStorageClass and Delete actions. Set the SetStorageClass action to 90 days and the Delete action to 275 days.
+
+C
+Use gsutil rewrite and set the Delete action to 275 days.
+
+D
+Use gsutil rewrite and set the Delete action to 365 days.
+
+1
+Kategori : EN - Configuring access and security 1
+
+One of your team members had accidentally included a service account private JSON key while pushing code to GitHub. What steps should you immediately perform?
+
+A
+Delete the JSON file from GitHub.
+
+B
+Delete the project and all its resources.
+
+C
+Delete the JSON file from GitHub, remove the key from Google Cloud IAM and generate a new key for use.
+
+D
+None of the above
+
+1
+Kategori : EN - Configuring access and security 1
+
+The development team wants to deploy an application on Cloud Run that processes messages from a Cloud Pub/Sub topic. You've been designated to give them a solution for the possible steps. They want to follow Google-recommended practices. What solution you will provide to them?
+
+A
+1. Create a Cloud Functions that use a Cloud Pub/Sub trigger on that topic. 
+
+2. Call your application on Cloud Run from the Cloud Functions for every message.
+
+B
+1. Create a service account. 
+
+2. Give the Cloud Run Invoker role to that service account for your Cloud Run application. 
+
+3. Create a Cloud Pub/Sub subscription that uses that service account and uses your Cloud Run application as the push endpoint.
+
+C
+1. Grant the Pub/Sub Subscriber role to the service account used by Cloud Run. 
+
+2. Create a Cloud Pub/Sub subscription for that topic. 
+
+3. Make your application pull messages from that subscription.
+
+D
+1. Deploy your application on Cloud Run on GKE with the connectivity set to Internal. 
+
+2. Create a Cloud Pub/Sub subscription for that topic. 
+
+3. In the same Google Kubernetes Engine cluster as your application, deploy a container that takes the messages and sends them to your application.
+
+1
+Kategori : EN - Configuring access and security 1
+
+Your colleague was assigned a new DevOps project in Google Cloud Platform and he needs deploymentmanager.deployments.* permission to make use of Deployment Manager service. Which of the following roles would you create for him?
+
+A
+Deployment Manager Editor
+
+B
+Deployment Manager Custom
+
+C
+Deployment Manager Type Viewer
+
+D
+Deployment Manager Viewer
+
+0
+Kategori : EN - Configuring access and security 1
+
+Someone from a different team has approached you that he is working on a web application hosted on Compute Engine VM instance which needs to view access to Cloud Storage service. Which of the following is the best approach using the fewest possible steps?
+
+A
+Create a custom service account with the Cloud Storage Viewer role, and attach it to the VM instance.
+
+B
+Create a custom service account with Cloud Storage Viewer role, create a JSON key pair, and provide it to him.
+
+C
+VM Instances by default have read access to Cloud Storage service, so nothing needs to be done.
+
+D
+Create an IAM user for him with Cloud Storage, create a JSON key pair, and provide it to him.
+
+0
+Kategori : EN - Configuring access and security 1
+
+You are appointed as a head of infrastructure security and the first thing you are asked is to create a few IAM users following best security practices. How would you ensure that these users are only able to launch a new instance and list them?
+
+A
+Create Compute Editor role and attach it to the users.
+
+B
+Attach Project Editor role to users.
+
+C
+Create a custom role with specific permissions and attach it to users.
+
+D
+Create a service account with the required permissions and attach it to users.
+
+1
+Kategori : EN - Configuring access and security 2
+
+You need a dynamic way of provisioning VMs on Compute Engine. The exact specifications will be in a dedicated configuration file. You want to follow Google's recommended practices. Which method should you use?
+
+A
+Cloud Composer
+
+B
+Managed Instance Group
+
+C
+Unmanaged Instance Group
+
+D
+Deployment Manager
+
+1
+Kategori : EN - Configuring access and security 2
+
+Your project team has asked you to disable a custom role editor from the project which might require deletion from your Google Cloud Platform console. The project team will inform you when to perform the deletion of the role. Suggest the correct gcloud command to perform the deletion!
+
+A
+gcloud iam roles disable editor --project-id [project_id]
+
+B
+gcloud iam roles update editor --project-id [project_id] --stage disable
+
+C
+gcloud iam roles update editor --project [project_id] --stage disabled
+
+D
+gcloud iam roles disable editor --project [project_id]
+
+0
+Kategori : EN - Configuring access and security 2
+
+You want to list roles assigned to users in a project called ace-exam-project. What gcloud CLI command would you use?
+
+A
+gcloud iam get-iam-policy ace-exam-project
+
+B
+gcloud projects get-iam-policy ace-exam-project
+
+C
+gcloud iam list ace-exam-project
+
+D
+gcloud projects list ace-exam-project
+
+1
+Kategori : EN - Configuring access and security 2
+
+Your colleague has asked for help in creating an IAM role using gcloud CLI. Which of the following is the correct command to create an IAM role?
+
+A
+gcloud iam create role viewer-role --project academy --permissions “roles/viewer”
+
+B
+gcloud iam roles create viewer-role --project academy --permissions “roles/viewer”
+
+C
+gcloud project roles create --type iam viewer-role --project academy --file role-definition.yaml
+
+D
+gcloud iam roles create viewer-role --project academy --file=role-definition.yaml
+
+1
+Kategori : EN - Configuring access and security 2
+
+Your company has deployed an application using the App Engine flexible environment and you have been asked to SSH to the VM instance, update the app configuration and if required, enable and disable the App Engine application. Which of the following predefined roles has access to perform these tasks?
+
+A
+App Engine Admin
+
+B
+App Engine Service Admin
+
+C
+App Engine Deployer
+
+D
+App Engine Code Viewer
